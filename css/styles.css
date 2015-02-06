@@ -1,0 +1,223 @@
+header {
+    margin-bottom: 50px;
+}
+
+#leftCol {
+    padding-top: 60px;
+}
+
+#rightCol {
+    padding-top: 50px;
+}
+
+#spot_rightCol {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+a {
+    color: #59379E;
+}
+
+a:hover,
+a:focus {
+    outline: 0;
+    color: #331178;
+}
+
+.index_nav li a {
+    border-left: 2px solid transparent;
+    line-height: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.index_nav li.active a,
+.index_nav li.active a:hover,
+.index_nav li.active a:focus,
+.index_nav li a:hover,
+.index_nav li a:focus {
+    color: #59379E;
+    outline: 0;
+    border-left: 2px solid #58379E;
+}
+
+#contact li a {
+    padding: 10px;
+    padding-left: 2px;
+    margin-top: -10px;
+    margin-bottom: -8px;
+}
+
+h2[id], h3[id] {
+    padding-top: 80px;
+    margin-top: -70px;
+}
+
+.alert {
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+
+.modal-dialog {
+    width:800px;
+}
+
+.img-thumbnail {
+    margin-bottom:6px;
+    cursor:pointer;
+    max-height:110px;
+    position: relative;
+}
+
+#UoP_logo {
+    margin-left: 15px;
+    margin-top: 5px;
+    float: left;
+}
+
+#Zoo_logo {
+    margin-top: 10px;
+    margin-right: 15px;
+    float: right;
+    height: 30px;
+}
+
+#Zoo_new {
+    margin-bottom: -10px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-fixed-bottom {
+    width: 100%;
+    background-color: #f5f5f5;
+    z-index: 1;
+}
+
+address {
+    line-height: 18px;
+}
+
+#zoo_count {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    background: linear-gradient(#4e4943,#292928);
+    backgournd: -moz-linear-gradient(#4e4943,#292928);
+    background: -webkit-linear-gradient(#4e4943,#292928);
+    background: -o-linear-gradient(#4e4943,#292928);
+}
+
+#zoo_count span {
+    color: #ccc
+}
+
+@media (max-width: 992px){
+    #leftCol {
+	    position: static;
+    }
+    #leftCol {
+        padding-top: 0px;
+    }
+    #rightCol {
+        padding-top: 0px;
+    }
+    #spot_rightCol {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .navbar-fixed-bottom {
+        position: static;
+    }
+    h2[id], h3[id] {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .navbar {
+        position: static;
+        top: 0px;
+    }
+    .modal-dialog {
+        width:100%;
+    }
+    .alert {
+    margin-bottom: 10px;
+    margin-top: -10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    #leftCol {
+	    position: fixed;
+	    width: 213px;
+	    z-index:0;
+        overflow-y: auto;
+        height: 100%;
+    }   
+    #spot_rightCol {
+        padding-bottom: 170px;
+    }
+    #contact {
+        margin-bottom: 195px;
+    }    
+    .image_block {
+	    float:none;
+	    display:inline-block;
+	    vertical-align:middle;
+	    margin-right:-4px;
+    }
+    .image_top {
+	    margin-top: 65px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #leftCol {
+	    position: fixed;
+	    width: 261px;
+	    z-index:0;
+        overflow-y: auto;
+        height: 100%;
+    }
+    #contact {
+        margin-bottom: 165px;
+    }  
+    .image_block {
+	    float:none;
+	    display:inline-block;
+	    vertical-align:middle;
+	    margin-right:-4px;
+    }
+    .image_top {
+	    margin-top: 35px;
+    }
+}
+
+.alert .close {
+    margin-top: -15px;
+    margin-right: -8px;
+    padding: 0px;
+}
+.alert-info {
+  background-color: #f2d0ff;
+  border-color: #daacff;
+  color: #59379e;
+}
+.alert-info hr {
+  border-top-color: #cf93ff;
+}
+.alert-info .alert-link {
+  color: #442a78;
+}

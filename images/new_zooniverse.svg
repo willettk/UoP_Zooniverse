@@ -1,0 +1,15 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml-stylesheet href="../css/styles.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="zoo_logo" width="300px" height="300px">
+  <g class="zoo_logo" fill="currentColor" stroke="transparent" stroke-width="0" transform="translate(50, 50)">
+    <path class="O_line" d="M 1.6 -40 Q 0 -85 -1.6 -40 L -2.2 0 L -1.6 40 Q 0 85 1.6 40 L 2.2 0 Z"  transform="rotate(53)" />
+    <path class="O_logo" d="M 0 -45 A 45 45 0 0 1 0 45 A 45 45 0 0 1 0 -45 Z M 0 -30 A 30 30 0 0 0 0 30 A 30 30 0 0 0 0 -30 Z" />
+    <path class="O_dot" d="M 0 -10.5 A 10.5 10.5 0 0 1 0 10.5 A 10.5 10.5 0 0 1 0 -10.5 Z" />
+    <text x="0" y="48"
+        style="text-anchor: middle;
+        font-size: 130px;
+        fill: #59379E;
+        font-family: sans-serif"
+        >?</text>
+  </g>
+</svg>

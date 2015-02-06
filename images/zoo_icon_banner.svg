@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 860 100" class="zoo_logo" width="610px">
+  <!--
+  <defs>
+    <pattern id="smallGrid" width="5" height="5" patternUnits="userSpaceOnUse">
+      <path d="M 5 0 L 0 0 0 5" fill="none" stroke="gray" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="url(#smallGrid)"/>
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="gray" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)" />-->
+  <g transform="translate(6, 50)">
+    <path class="Z" d="M 0 43 L 70 43 L 70 29 L 20 29  L 70 -30 L 70 -43 L 1 -43 L 1 -29 L 50 -29 L 0 30 Z" />
+  </g>  
+  <g transform="translate(133, 50)">
+    <path class="O" d="M 0 -45 A 45 45 0 0 1 0 45 A 45 45 0 0 1 0 -45 Z M 0 -30 A 30 30 0 0 0 0 30 A 30 30 0 0 0 0 -30 Z" />
+  </g>
+  <g class="zoo_logo" fill="currentColor" stroke="transparent" stroke-width="0" transform="translate(239, 50)">
+    <path class="O_line" d="M 1.6 -40 Q 0 -85 -1.6 -40 L -2.2 0 L -1.6 40 Q 0 85 1.6 40 L 2.2 0 Z"  transform="rotate(53)" />
+    <path class="O_logo" d="M 0 -45 A 45 45 0 0 1 0 45 A 45 45 0 0 1 0 -45 Z M 0 -30 A 30 30 0 0 0 0 30 A 30 30 0 0 0 0 -30 Z" />
+    <path class="O_dot" d="M 0 -10.5 A 10.5 10.5 0 0 1 0 10.5 A 10.5 10.5 0 0 1 0 -10.5 Z" />
+  </g>
+  <g transform="translate(304,50)">
+    <path class="N" d="M 0 -43 L 0 43 L 16 43 L 16 -15 L 61 43 L 75 43 L 75 -43 L 59 -43 L 59 14 L 15 -43 Z"/>
+  </g>
+  <g transform="translate(400,50)">
+    <path class="I" d="M 0 -43 L 0 43 L 16 43 L 16 -43 Z" />
+  </g>
+  <g transform="translate(431,50)">
+    <path class="V" d="M 1 -43 L 36 44 L 52 44 L 87 -43 L 68 -43 L 44 21 L 20 -43 Z" />
+  </g>
+  <g transform="translate(533,50)">
+    <path class="E" d="M 0 -43 L 0 43 L 66 43 L 66 29 L 17 29 L 17 7 L 60 7 L 60 -8 L 17 -8 L 17 -29 L 65 -29 L 65 -43 Z" />
+  </g>
+  <g transform="translate(616,50)">
+    <path class="R" fill-rule="evenodd" d="M 0 -43 L 0 43 L 17 43 L 17 13 L 34 13 L 55 43 L 75 43 L 52 11 C 83 0 79 -42 45 -43 Z M 17 -29 L 17 -1 L 40 -1 C 60 -3  58 -27 40 -29 Z" />
+  </g>    
+  <g transform="translate(700,50)">
+    <path class="S" fill="transparent" stroke="black" stroke-width="16"
+          d="M 61.5 -27.2 q -11.3333 -9.63333 -27.3333 -9.26667 q -17.6667 1.21666 -21 13.8833 q -4.16667 16.5667 21.8333 22.5833 q 26.8333 3.51666 25.1667 21.5667 q -2.5 16.3333 -25.8151 16.4817 q -17.3516 -2.31507 -28.8516 -13.6484"/>
+  </g>   
+  <g transform="translate(785,50)">
+    <path class="E" d="M 0 -43 L 0 43 L 66 43 L 66 29 L 17 29 L 17 7 L 60 7 L 60 -8 L 17 -8 L 17 -29 L 65 -29 L 65 -43 Z" />
+  </g>
+  <a id="anchor" xlink:href="http://www.zooniverse.org/" target="_top">
+	<rect x="0" y="0" width="860" height="100" fill-opacity="0"/>
+  </a>
+</svg>

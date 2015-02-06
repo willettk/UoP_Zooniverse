@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Zooniverse Spotlight</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link  rel="icon" type="image/x-icon"  href="/images/favicon.ico" />
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.vertical-tabs.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- script references -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.stickytabs.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <header class="navbar navbar-default navbar-fixed-top" role="banner">
+      <div class="container">
+        <object id="UoP_logo" width="222" height="40" type="image/svg+xml" data="images/UoP_logo.svg"></object>
+        <object id="Zoo_logo" type="image/svg+xml" data="images/zoo_icon_banner.svg"></object>
+      </div>
+    </header>
+
+    <div class="container" id="body_container">
+      <div class="row" id="body_row">
+        <div class="col-md-3">
+          <div id="leftCol">
+            <ul class="nav nav-tabs tabs-left index_nav">
+              <li class="active"><a href="#tab0" data-toggle="tab">Overview</a></li>
+              <li><a href="#tab1" data-toggle="tab">Decision Trees</a></li>
+              <li><a href="#tab2" data-toggle="tab">Image Annotation</a></li>
+              <li><a href="#tab3" data-toggle="tab">Image Comparison</a></li>
+              <li><a href="#tab4" data-toggle="tab">Transcription/Tagging</a></li>
+              <li><a href="#tab5" data-toggle="tab">Audio Classification</a></li>
+            </ul>
+            <br>
+            <div class="well" id="contact">
+              <ul class="nav nav-list index_nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="nav-divider"></li>
+              </ul>
+              <address>
+                <strong>Contact Information</strong><br>
+                <a href="http://www.icg.port.ac.uk/author/krawczyc/">Dr. Coleman Krawczyk</a></li><br>
+                <a href="mailto:coleman.krawczyk@port.ac.uk">coleman.krawczyk@port.ac.uk</a><br>
+                Tel: +44 (0)23 9284 5150<br>
+                Office: Dennis Sciama Building Room 3.08<br>
+               </address>
+               <div class="row">
+                 <div class="col-md-6 col-md-offset-3 col-sm-2 col-xs-3"><img src="images/Coleman.jpg" class="img-responsive img-circle" id="coleman"></div>
+               </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-9" id="spot_rightCol">
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab0">
+              <h2>Zooniverse Splotlight</h2>
+              <hr>
+              <p>Here you can find and in-depth look at each of the project types within the Zooniverse.</p>
+            </div>
+
+            <!--===========================-->
+            <div class="tab-pane" id="tab1">
+              <h2>Decision Trees</h2>
+              <hr>
+              <div class="panel-group" id="faq">
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#Q1">
+                      <h4 class="panel-title"> What is a decision tree?</h4>
+                    </a>
+                  </div>
+                  <div id="Q1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p>
+                        A decision tree is a classification technique where the user is asked a series of questions that lead them to a final classification.
+                        These questions usually begin very broad (e.g. “Is the galaxy smooth and rounded, or does it have a disk or features?”) and end very specific (e.g. “How many spiral arms are visible”).
+                        These trees can be deep (have many questions asked), wide (have many choices for each question), or both.
+                      </p>
+                      <p>
+                        Below is example showing the deep decision tree from Galaxy Zoo Candels:
+                        <object id="candels" width="100%" type="image/svg+xml" data="images/candels_tree.svg"></object>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#Q2">
+                      <h4 class="panel-title">What Zooniverse projects use a decision tree?</h4>
+                    </a>
+                  </div>
+                  <div id="Q2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Currently five Zooniverse projects use decision trees:
+                      <ul>
+                        <li>Galaxy Zoo</li>
+                        <li>Snapshot Serengeti</li>
+                        <li>Cyclone Center</li>
+                        <li>Wildlife Watch</li>
+                        <li>Cell Slider</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#Q3">
+                      <h4 class="panel-title">What kinds or tasks are decision trees good for?</h4>
+                    </a>
+                  </div>
+                  <div id="Q3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Decision trees do a good job at classifying objects in an image (e.g. “Is the animal in this image a lion or a zebra?”).
+                      Decision trees do not provide any information about the location of the objects begin classified.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#Q4">
+                      <h4 class="panel-title">How are the data from a decision tree analyzed?</h4>
+                    </a>
+                  </div>
+                  <div id="Q4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      For each question a weighted vote count is made for each answer and the one with the most votes and taken as the classification. 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#Q5">
+                      <h4 class="panel-title">What is a weighted vote count?</h4>
+                    </a>
+                  </div>
+                  <div id="Q5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      In order to ensure the most accurate vote count, each user is given a weight that reflects how well they classify images.
+                      This is usually computed by seeing how ofter a user is in the “majority” of votes.  This makes the assumption that on average the crowd will provide the correct classification.
+                      The end result of this weighting ensures that a user that always provides the wrong answer is not included in the final vote count.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#Q6">
+                      <h4 class="panel-title">How many people need to look at each image to get a good result?</h4>
+                    </a>
+                  </div>
+                  <div id="Q6" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      It depends on the type of data, but a good place to start is between 20-40.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#Q7">
+                      <h4 class="panel-title">What tools are available for visualizing the results?</h4>
+                    </a>
+                  </div>
+                  <div id="Q7" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Here at the UoP we have developed a web-based tool for <a href="http://www.icg.port.ac.uk/~krawcyzc/gzvis/">visualizing</a> the results of Galaxy Zoo.
+                      With minimal configuration, this tool can be used to visualize the results of any decision tree.
+                      Using this tool, experts can quickly see how well the crowd does for each classification and the common mis-classifications.
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <!--===========================-->
+            <div class="tab-pane" id="tab2">
+              <h2>Image Annotation</h2>
+              <hr>
+
+              <div class="panel-group" id="faq2">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T2Q1">
+                      <h4 class="panel-title">What is image annotation?</h4>
+                    </a>
+                  </div>
+                  <div id="T2Q1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Image annotation is where a user is asked to draw a shape on or mark a region of an image.  The shapes can be well defined (e.g. circles, ellipses) and/or user defined shapes.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T2Q2">
+                      <h4 class="panel-title">What Zooniverse projects use image annotation?</h4>
+                    </a>
+                  </div>
+                  <div id="T2Q2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      The majority of Zooniverse projects are based on image annotation:
+                      <ul>
+                        <li>Moon Zoo</li>
+                        <li>Planet Hunters</li>
+                        <li>The Milky Way Project</li>
+                        <li>Planet Four</li>
+                        <li>Seafloor Explorer</li>
+                        <li>Floating Forest</li>
+                        <li>Condor Watch</li>
+                        <li>Penguin Watch</li>
+                        <li>Higgs Hunter</li>
+                        <li>Plankton Portal</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T2Q3">
+                      <h4 class="panel-title">What kinds of tasks are image annotations good for?</h4>
+                    </a>
+                  </div>
+                  <div id="T2Q3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Image annotation is good for either locating where an object is located in an image (e.g. “Where are the bubbles in the Milky Way?”), 
+                      counting the number of objects within an image (e.g. “How many penguin’s are in this image?”),
+                      or determining directionality (e.g. “What direction are the plankton facing in this image?”).
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T2Q4">
+                      <h4 class="panel-title">How are the data from image annotation analyzed?</h4>
+                    </a>
+                  </div>
+                  <div id="T2Q4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      After the users have annotated an image, a clustering algorithm is run on the resulting shapes (including all parameters of the shape, not just the center)
+                      to find where a large number (&ge;5) of users drew similar shapes.  The shapes that end up in the same cluster are then averaged together to create the
+                      final annotation.  The spread within these shapes offers an estimate of the uncertainty in the final annotation.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T2Q5">
+                      <h4 class="panel-title">What if a feature is on the edge of an image?</h4>
+                    </a>
+                  </div>
+                  <div id="T2Q5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      If the images are not continuous, users should be advised to not mark features on the edge of the image.  If the images are continuous (e.g. The Milky Way Project)
+                      the images shown to the users should be taken from overlapping tiles of the larger image.  That way, if a feature is on the edge of one image, it is in the center of
+                      another image.  The science team can also do this tiling at several different zoom levels to check for potential biases based on the image resolution.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T2Q6">
+                      <h4 class="panel-title">How many people need to annotate an image to get a good result?</h4>
+                    </a>
+                  </div>
+                  <div id="T2Q6" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      It depends on the type of data, but since the clustering algorithm needs more then five annotations to combine into a single detection,
+                      at least 20-40 people should look at each image.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T2Q7">
+                      <h4 class="panel-title">What tools are available for visualizing the results?</h4>
+                    </a>
+                  </div>
+                  <div id="T2Q7" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      The Zooniverse team in Oxford has developed a web-based tool for <a href="http://explore.milkywayproject.org/">visualizing</a> the results of The Milky Way Project.
+                      This tool is currently being adapted to visualize all the other image annotation projects in the Zooniverse.  Using this tool, experts
+                      can quickly see how well the clustering algorithm does in converting the raw data into a final catalog.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+            <!--===========================-->
+            <div class="tab-pane" id="tab3">
+              <h2>Image Comparison</h2>
+              <hr>
+              <div class="panel-group" id="faq3">
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T3Q1">
+                      <h4 class="panel-title">What is image comparison?</h4>
+                    </a>
+                  </div>
+                  <div id="T3Q1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Image comparison is when a user is asked to compare features across two or more images.  These could be two static images, or frames in a movie.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T3Q2">
+                      <h4 class="panel-title">What Zooniverse projects use image comparison?</h4>
+                    </a>
+                  </div>
+                  <div id="T3Q2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      There are six Zooniverse projects that use image comparison:
+                      <ul>
+                        <li>Solar Storm Watch</li>
+                        <li>Radio Galaxy Zoo</li>
+                        <li>Disk Detective</li>
+                        <li>Sunspotter</li>
+                        <li>Asteroid Zoo</li>
+                        <li> Worm Watch Lab</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T3Q3">
+                      <h4 class="panel-title">What kinds of tasks are image comparisons good for?</h4>
+                    </a>
+                  </div>
+                  <div id="T3Q3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Image comparison is good for matching features between images (e.g. “Is this galaxy that shows up in the radio also visible in the IR?”),
+                      indicating the time in a movie when an event happens (e.g. “At what point did a worm lay an egg?”), finding objects that change over time
+                      (e.g. “Is there an astroid in this sequence of images?”), or direct comparison of two images of the same type (e.g. “Which sunspot is more complex?”).
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="alert alert-danger" role="alert">
+                <strong>Questions I need to find answers to:</strong>
+                <ul>
+                  <li>How are the data from image comparison analyzed?</li>
+                  <li>How many people need to compare images to get a good result?</li>
+                  <li>What data analysis tools are available for image comparison?</li>
+                </ul>
+              </div>
+              
+            </div>
+            
+            <!--===========================-->
+            <div class="tab-pane" id="tab4">
+              <h2>Transcription/Tagging</h2>
+              <hr>
+              <div class="panel-group" id="faq4">
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T4Q1">
+                      <h4 class="panel-title">What is transcription and tagging?</h4>
+                    </a>
+                  </div>
+                  <div id="T4Q1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Transcription is when a user is asked to convert a line/word/letter of text in an image into digital form.
+                      Tagging is when a user is asked to read text from an image and record the general context of those words.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T4Q2">
+                      <h4 class="panel-title">What Zooniverse projects use transcription and/or tagging?</h4>
+                    </a>
+                  </div>
+                  <div id="T4Q2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      There are four Zooniverse projects that make use of transcription and/or tagging:
+                      <ul>
+                        <li>Old Weather</li>
+                        <li>Ancient Lives</li>
+                        <li>Operation War Diary</li>
+                        <li>Notes from Nature</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T4Q3">
+                      <h4 class="panel-title">What kinds of tasks are transcription and tagging good for?</h4>
+                    </a>
+                  </div>
+                  <div id="T4Q3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Transcription and tagging are good for digitizing, preserving, and making searchable various pieces of text.  
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T4Q4">
+                      <h4 class="panel-title">How many people need to transcribe/tag and image to get good results?</h4>
+                    </a>
+                  </div>
+                  <div id="T4Q4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Transcription and tagging are less prone to errors, so only 3-5 people need to process each image.
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="alert alert-danger" role="alert">
+                <strong>Questions I need to find answers to:</strong>
+                <ul>
+                  <li>How are the data from transcription and tagging analyzed?</li>
+                  <li>What data analysis tools are available for transcription and tagging?</li>
+                </ul>
+              </div>
+              
+            </div>
+
+            <!--===========================-->
+            <div class="tab-pane" id="tab5">
+              <h2>Audio Classification</h2>
+              <hr>
+              <div class="panel-group" id="faq5">
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T5Q1">
+                      <h4 class="panel-title">What is audio classification?</h4>
+                    </a>
+                  </div>
+                  <div id="T5Q1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Audio classification is when a user is asked to listen to an audio clip and classify it.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T5Q2">
+                      <h4 class="panel-title">What Zooniverse projects use audio classification?</h4>
+                    </a>
+                  </div>
+                  <div id="T5Q2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      There are two Zooniverse projects that use audio classification:
+                      <ul>
+                        <li>Whale FM</li>
+                        <li>Bat Detective</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#T5Q3">
+                      <h4 class="panel-title">What kinds of tasks are good for audio classification?</h4>
+                    </a>
+                  </div>
+                  <div id="T5Q3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      Audio classification is good for the analysis of any data that is audio based (e.g. whale songs) or data that can be converted into an audio stream.
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              
+              <div class="alert alert-danger" role="alert">
+                <strong>Questions I need to find answers to:</strong>
+                <ul>
+                  <li>How are audio classifications analyzed?</li>
+                  <li>How many people need to classify an audio clip to get good results?</li>
+                  <li>What data analysis tools are available for audio classifications?</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="navbar-fixed-bottom">
+      <div class="container text-muted">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h4 id="sec7">Uinveristy of Portsmouth Zooniverse board members</h4>
+          </div>
+        </div>
+        <div class="row">
+          <ul>
+            <li class="col-md-6">Zooniverse Board Chair: <a href="http://www.port.ac.uk/school-of-health-sciences-and-social-work/staff/tara-dean.html">Professor Tara Dean</a></li>
+            <li class="col-md-6">Creative and Cultural Industries: <a href="http://www.port.ac.uk/school-of-creative-technologies/staff/david-anderson.html">Professor David Anderson</a></li>
+            <li class="col-md-6">Faculty of Humanities and Social Sciences: <a href="http://www.port.ac.uk/institute-of-criminal-justice-studies/staff/dr-nicholas-pamment.html">Dr. Nicholas Pamment</a></li>
+            <li class="col-md-6">Faculty of Science: <a href="http://www.port.ac.uk/department-of-geography/staff/humphrey-southall.html">Professor Humphrey Southall</a></li>
+            <li class="col-md-6">Faculty of Technology: <a href="http://www.port.ac.uk/school-of-computing/staff/dr-rich-boakes.html">Dr. Rich Boakes</a></li>
+            <li class="col-md-6">Portsmouth Business School: <a href="http://www.port.ac.uk/operationsandsystemsmanagement/staff/brad-mckenna.html">Dr. Brad Mckenna</a></li>
+            <li class="col-md-6">Other Board Members: <a href="http://www.icg.port.ac.uk/author/mastersk/">Dr. Karen Masters</a>; <a href="http://www.port.ac.uk/economics-and-finance/staff/joe-cox.html">Dr. Joe Cox</a>; <a href="http://www.icg.port.ac.uk/author/krawczyc/">Dr. Coleman Krawczyk</a></li>
+          </ul> 
+        </div>
+      </div>
+      <br>
+    </footer>
+
+
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h3 class="modal-title">Heading</h3>
+          </div>
+          <div class="modal-body">
+            
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
